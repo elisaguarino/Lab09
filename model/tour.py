@@ -8,6 +8,7 @@ class Tour:
     costo: float
     id_regione: str
 
+
     # RELAZIONE (N:N)
     attrazioni: set = field(default_factory=set)
 
